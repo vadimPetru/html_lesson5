@@ -245,30 +245,6 @@
       font-style: normal;
     }
 
-    header:hover,
-    nav:hover,
-    section:hover,
-    article:hover,
-    aside:hover,
-    footer:hover {
-      background: #FFC327;
-      color: #fff;
-    }
-
-    section section:hover,
-    section aside:hover {
-      background: #FFD25D;
-    }
-
-    section article:hover {
-      background: #FFC327;
-    }
-
-    article header:hover {
-      background: #FFD25D;
-      color: #777;
-    }
-
     section article .tag {
       top: 12px;
     }
