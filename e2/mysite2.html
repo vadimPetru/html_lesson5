@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <meta charset="utf-8" />
-  <title>Сайт на HTML5 от MSQRD.BY</title>
+  <title>Сайт на HTML5 от NEWSITE.BY</title>
   <link rel="stylesheet" href="style.css">
   <!--[if IE]>
 			<script>
@@ -15,7 +15,6 @@
 				document.createElement('footer');
 			</script>
 		<![endif]-->
-
 </head>
 
 <body>
@@ -23,64 +22,99 @@
     <!-- Главный блок всей страницы (обертка) -->
 
     <!-- Тэг header  -->
-    <header class="h">
-      <h1>Сайт на HTML5 от веб-студии MSQRD.BY</h1>
-      <i class="tag">&lt;header&gt;</i>
+    <header class="header11">
+      <h1>Сайт на HTML5 от веб-студии TTFDT.NET</h1>
+      <!-- <i class="tag">&lt;header&gt;</i> -->
     </header>
 
     <!-- Тэг nav -->
     <nav>
+      <h2 class="block">Навигация</h2>
       <ul>
         <li><a href="/about_company/">О компании</a></li>
-
+        <li><a href="/service/">Услуги</a></li>
+        <li><a href="/clients/">Клиентам</a></li>
+        <li><a href="/portfolio/">Портфолио</a></li>
+        <li><a href="/article/">Статьи</a></li>
+        <li><a href="/news/">Новости</a></li>
+        <li><a href="/contact/">Контакты</a></li>
       </ul>
-      <i class="tag">&lt;nav&gt;</i>
+      <!-- <i class="tag">&lt;nav&gt;</i> -->
     </nav>
-
     <!-- Тэг section для вставки изображения логотипа -->
     <section>
-      <img class="image" src="img.jpg" alt="" />
-      <i class="tag">&lt;section&gt;</i>
+      <h2 class="block">Логотип</h2>
+      <img class="image" src="images/11.jpg" alt="logo" />
+      <!-- <i class="tag">&lt;section&gt;</i>-->
     </section>
 
     <!-- Блок всего контента страницы -->
     <section>
-
+      <h2>Веб-студия TTFDT.NET</h2>
       <!-- Блок левой части контента страницы -->
       <section>
-
+        <h2>Мы предлагаем:</h2>
         <!-- Первая статья контента-->
         <article>
           <header>
-            <h2>Создание и разработка сайтов</h2>
-            <i class="tag">&lt;header&gt;</i>
+            <h3>Создание и разработка сайтов</h3>
+            <!-- <i class="tag">&lt;header&gt;</i> -->
           </header>
-          <p>Компания «<a href="/">MSQRD</a>» предлагает комплекс высококачественных услуг по созданию, разработке и
+          <p>Компания «<a href="/">TTFDT</a>» предлагает комплекс высококачественных услуг по созданию, разработке и
             поддержке Интернет-ресурсов в сети на базе <a href="/cms/">Систем управления сайтом</a> (<abbr
               title="Content Management System">CMS</abbr>).</p>
           <p>К каждому проекту мы подходим индивидуально и выбираем оптимальный вариант для решения поставленных задач.
             Разработанный нами сайт будет отличаться оригинальным оформлением и функциональностью. При разработке
             веб-сайтов мы используем самые передовые технологии.</p>
-          <i class="tag">&lt;article&gt;</i>
+          <details>
+            <summary>Оставить заявку на создание веб-сайта</summary>
+
+            <form>
+              <label for="contact_name">Имя:</label>
+              <input id="contact_name" placeholder="Введите Ваше имя" autofocus><br>
+              <label for="contact_email">E-mail:</label>
+              <input type="email" id="contact_email" placeholder="Введите Ваш электронный ящик"><br>
+              <label for="contact_phone">Телефон:</label>
+              <input type="tel" id="contact_phone" placeholder="Введите номер Вашего телефона"><br>
+              <label for="contact_callback">Время звонка:</label>
+              <input type="text" id="contact_callback" placeholder="Введите время, когда Вам можно перезвонить"><br>
+              <label for="contact_priority">Приоритет:</label>
+              <input type="range" min="1" max="5" value="1" id="contact_priority"><br><br>
+              <input type="submit" value="Запрос вызова">
+            </form>
+
+          </details>
+          <!-- <i class="tag">&lt;article&gt;</i> -->
         </article>
 
         <!-- Вторая статья контента -->
         <article>
           <header>
-            <h2>Веб-дизайн</h2>
-            <i class="tag">&lt;header&gt;</i>
+            <h3>Веб-дизайн</h3>
+            <!-- <i class="tag">&lt;header&gt;</i> -->
           </header>
           <p>Каждый сайт должен быть по-своему привлекателен. А первое, на что посетитель обращает внимание – это
             <strong>дизайн</strong>, т.е. все визуальное представление сайта, включая <em>пиктограммы</em> и
-            <em>иконки</em>, <em>шрифты</em>, <em>иллюстрации</em>, и т.д.</p>
-          <i class="tag">&lt;article&gt;</i>
+            <em>иконки</em>, <em>шрифты</em>, <em>иллюстрации</em>, и т.д.
+          </p>
+          <details>
+            <summary>Подробнее..</summary>
+            <p>От того, насколько дружественно и качественно <mark>разработан дизайн</mark>, зависит дальнейшее
+              пребывание пользователя на Вашем сайте.</p>
+            <figure>
+              <img src="images/TTFDT.png" alt="Веб-дизайнеры компании TTFDT.NET"
+                title="Веб-дизайнеры компании TTFDT.NET" />
+              <figcaption>Веб-дизайнеры компании TTFDT.NET </figcaption>
+            </figure>
+          </details>
+          <!-- <i class="tag">&lt;article&gt;</i> -->
         </article>
 
         <!-- Третья статья контента -->
         <article>
           <header>
-            <h2>HTML верстка сайтов</h2>
-            <i class="tag">&lt;header&gt;</i>
+            <h3>HTML верстка сайтов</h3>
+            <!-- <i class="tag">&lt;header&gt;</i> -->
           </header>
           <p><em>Верстка макета (HTML верстка)</em> – это процесс формирования веб-страницы, по средствам кода
             соответствующего языка разметки (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr
@@ -88,22 +122,25 @@
               title="Cascading Style Sheets">CSS</abbr>) и подгружаемых картинок и фонов, на которые специальным образом
             разбивается макет сайта, в соответствии с дизайном, как правило, в формате <abbr
               title="Photoshop Document">PSD</abbr>.</p>
-          <i class="tag">&lt;article&gt;</i>
+          <!-- <i class="tag">&lt;article&gt;</i> -->
         </article>
         <article>
           <header>
             <h2>Мы трансформируем желания клиентов в реальность!</h2>
-            <i class="tag">&lt;header&gt;</i>
+            <!-- <i class="tag">&lt;header&gt;</i> -->
           </header>
-          <i class="tag">&lt;article&gt;</i>
+          <!-- <i class="tag">&lt;article&gt;</i> -->
         </article>
-
-        <i class="tag">&lt;section&gt;</i>
+        <p class="video">
+          <video controls autoplay muted src="video/transformers480.ogg">
+          </video>
+        </p>
+        <!-- <i class="tag">&lt;section&gt;</i> -->
       </section> <!-- Нижняя граница левой части контента -->
 
       <!-- Тэг правой колонки контента -->
       <aside>
-        <h2><a href="/service/">Услуги MSQRD</a></h2>
+        <h2><a href="/service/">Услуги TTFDT</a></h2>
         <ul>
           <li>
             <h3><a href="/service/website/">Создание и разработка сайтов</a></h3>
@@ -132,15 +169,16 @@
           <li>Бесплатные консультации и сопровождение проекта в течение месяца;</li>
           <li>Скидки постоянным клиентам и индивидуальные бонусные программы.</li>
         </ol>
-        <i class="tag">&lt;aside&gt;</i>
+        <!-- <i class="tag">&lt;aside&gt;</i> -->
       </aside>
-      <i class="tag">&lt;section&gt;</i>
+      <!-- <i class="tag">&lt;section&gt;</i> -->
     </section> <!-- Нижняя граница контента -->
-
     <!-- Авторская часть страницы footer -->
     <footer>
-      Copyright &copy; 2021 <a href="/" rel="copyright">MSQRD Belarus</a>. All rights reserved.
-      <i class="tag">&lt;footer&gt;</i>
+      <div>Copyright &copy; 2021 <a href="/" rel="copyright">TTFDT Belarus </a>+375-29-937-99-92 <a
+          href="#">TTFDT@mail.ru</a> <a href="#">Vkontakte</a> <a href="#">Instagram</a> <a href="#">Telegram</a>. All
+        rights reserved.</div>
+      <!-- <i class="tag">&lt;footer&gt;</i> -->
     </footer>
   </div> <!-- Границы главного блока (обертки) страницы -->
 </body>
