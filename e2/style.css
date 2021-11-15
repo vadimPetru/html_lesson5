@@ -49,11 +49,17 @@
       line-height: 1;
       margin: 4px 0 12px;
       padding: 4px;
-      color: #2ca9e4;
+      color: #7737fb;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     h1 {
-      font-size: 1.88em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 70px;
+      margin-top: 60px;
+      text-align: centr;
+      letter-spacing: 5px;
+      word-spacing: 10px;
     }
 
     h2+a {
@@ -91,8 +97,9 @@
     }
 
     .video {
-      margin: 0 auto;
-      text-align: center;
+      margin: 0 0 0 270px ;
+      width: 400px;
+      height: 240px;
     }
 
     summary {
@@ -145,14 +152,13 @@
       min-height: 100%;
       padding: 0 24px;
       margin: 0 auto;
-      background: #fff;
+     background: linear-gradient(90deg, #aea4e3, #d3ffe8);
     }
-
     /* пишем класс для шапки - header */
     .header11 {
       overflow: hidden;
-      height: 70px;
-      padding: 35px 25px 0;
+      height: 200px;
+      padding:  0;
     }
 
     /* меню навигации */
@@ -162,10 +168,10 @@
       background: #2ca9e4;
       /* border-radius:20px;*/
     }
-
+    /*Выравниваем меню*/
     nav li {
       float: left;
-      margin: 8px 20px 2px;
+      margin: 8px 45px 2px;
     }
 
     nav a {
@@ -186,8 +192,11 @@
 
     /* стиль для картинки */
     .image {
-      width: 100%;
-      margin: 10px 0;
+      float:left;
+      width: 200px;
+      height: 200px;
+      margin-right:100px;
+      
     }
 
     figure {
@@ -273,3 +282,89 @@
     footer div {
       padding-bottom: 5px;
     }
+    
+   body{
+     background-image: url(pictures/fon.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   }
+   .pictures {
+     width:130px;
+     height:148px;
+     border: 1px black solid;
+   }
+
+   .home_pictures{
+     width: 200px;
+     height: 200px;
+     margin-left: 20px;
+     float: right;
+     border: 1px black solid;
+
+   }
+   .dimasel {
+     margin-top: 5px;
+     margin-left: 280px;
+     border: 2px black solid ;
+   }
+   .born {
+     font-size: 30px;
+     text-align: center;
+   }
+   .text { 
+     font-size: 16px;
+   }
+   table{
+     border: solid 1px black;
+   }
+   .my_photo{
+     border: solid 1px black;
+     width: 400px;
+     height: 400px;
+     float: right;
+   }
+
+
+   table tr{
+     margin-top: 20px;
+    font-size: 20px;
+    color: blanchedalmond;
+   }
+   table {
+     margin-top: 13px;
+     margin-left: 170px
+   }
+   .tradition {
+     width:200px;
+     height: 200px;
+     float:left;
+     border: 2px solid black;
+   }
+   table.iksweb{
+	width: 60%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+.fairy{
+ text-align: center;
+ font-size: 16px;
+}
+
+.pictures_image{
+  float: right;
+}
